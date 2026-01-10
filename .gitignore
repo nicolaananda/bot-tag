@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+
+# WhatsApp session data (sensitive)
+#session/
+#session/*.json
+
+# Package lock (optional, can be included if needed)
+# package-lock.json
+
+# Logs
+*.log
+npm-debug.log*
+logs/
+.pm2/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test files (optional, uncomment if you don't want to track)
+# pdf/
+
+# Backup files
+*.bak
+*.tmp
+*~
