@@ -1,5 +1,5 @@
 require('./setting.js')
-const { jidDecode } = require('@dappaoffc/baileys')
+const { jidDecode } = require('@whiskeysockets/baileys')
 
 module.exports = async (ronzz, m, mek, store) => {
   try {

@@ -1,6 +1,6 @@
 require('dotenv').config()
 require("./setting.js")
-const { default: makeWASocket, useMultiFileAuthState, makeInMemoryStore, jidDecode, delay, proto } = require("@dappaoffc/baileys")
+const { default: makeWASocket, useMultiFileAuthState, makeInMemoryStore, jidDecode, delay, proto } = require("@whiskeysockets/baileys")
 const chalk = require('chalk')
 const readline = require('readline')
 const pino = require('pino')
